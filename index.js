@@ -17,6 +17,4 @@ var lorem = new LoremIpsum({
 
 app.get('/', (req, res) => res.send(lorem.generateParagraphs(7)))
 
-console.log(JSON.stringify(process.env));
-
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
