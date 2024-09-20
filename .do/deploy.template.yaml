@@ -6,3 +6,13 @@ spec:
       branch: main
       repo_clone_url: https://github.com/digitalocean/sample-nodejs.git
     name: sample-nodejs
+    envs:
+    - key: ALPHASPHERE_RUN_TIME
+      scope: RUN_TIME
+      value: "ALPHASPHERE_RUN_TIME"
+    - key: ALPHASPHERE_BUILD_TIME
+      scope: BUILD_TIME
+      value: ALPHASPHERE_BUILD_TIME
+    - key: ALPHASPHERE_RUN_AND_BUILD_TIME
+      scope: RUN_AND_BUILD_TIME
+      value: ALPHASPHERE_RUN_AND_BUILD_TIME
