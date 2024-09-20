@@ -10,9 +10,12 @@ spec:
     - key: ALPHASPHERE_RUN_TIME
       scope: RUN_TIME
       value: "ALPHASPHERE_RUN_TIME"
+      type: GENERAL
     - key: ALPHASPHERE_BUILD_TIME
       scope: BUILD_TIME
       value: ALPHASPHERE_BUILD_TIME
+      type: GENERAL
     - key: ALPHASPHERE_RUN_AND_BUILD_TIME
       scope: RUN_AND_BUILD_TIME
       value: ALPHASPHERE_RUN_AND_BUILD_TIME
+      type: GENERAL
